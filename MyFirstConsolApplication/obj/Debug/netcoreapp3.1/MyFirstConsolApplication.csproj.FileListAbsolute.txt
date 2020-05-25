@@ -1,0 +1,13 @@
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\bin\Debug\netcoreapp3.1\MyFirstConsolApplication.exe
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\bin\Debug\netcoreapp3.1\MyFirstConsolApplication.deps.json
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\bin\Debug\netcoreapp3.1\MyFirstConsolApplication.runtimeconfig.json
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\bin\Debug\netcoreapp3.1\MyFirstConsolApplication.runtimeconfig.dev.json
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\bin\Debug\netcoreapp3.1\MyFirstConsolApplication.dll
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\bin\Debug\netcoreapp3.1\MyFirstConsolApplication.pdb
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\obj\Debug\netcoreapp3.1\MyFirstConsolApplication.csprojAssemblyReference.cache
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\obj\Debug\netcoreapp3.1\MyFirstConsolApplication.AssemblyInfoInputs.cache
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\obj\Debug\netcoreapp3.1\MyFirstConsolApplication.AssemblyInfo.cs
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\obj\Debug\netcoreapp3.1\MyFirstConsolApplication.csproj.CoreCompileInputs.cache
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\obj\Debug\netcoreapp3.1\MyFirstConsolApplication.dll
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\obj\Debug\netcoreapp3.1\MyFirstConsolApplication.pdb
+D:\vscodesamples\LearndotNetCore\MyFirstConsolApplication\obj\Debug\netcoreapp3.1\MyFirstConsolApplication.genruntimeconfig.cache
