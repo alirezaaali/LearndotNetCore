@@ -76,3 +76,7 @@ D:\vscodesamples\LearndotNetCore\MVCIntro\MVCIntro\obj\Debug\MVCIntro.csprojAsse
 D:\vscodesamples\LearndotNetCore\MVCIntro\MVCIntro\obj\Debug\MVCIntro.csproj.CopyComplete
 D:\vscodesamples\LearndotNetCore\MVCIntro\MVCIntro\obj\Debug\MVCIntro.dll
 D:\vscodesamples\LearndotNetCore\MVCIntro\MVCIntro\obj\Debug\MVCIntro.pdb
+D:\vscodesamples\LearndotNetCore\MVCIntro\MVCIntro\bin\EntityFramework.dll
+D:\vscodesamples\LearndotNetCore\MVCIntro\MVCIntro\bin\EntityFramework.SqlServer.dll
+D:\vscodesamples\LearndotNetCore\MVCIntro\MVCIntro\bin\EntityFramework.xml
+D:\vscodesamples\LearndotNetCore\MVCIntro\MVCIntro\bin\EntityFramework.SqlServer.xml

@@ -12,6 +12,8 @@ namespace MVCIntro.Controllers
         // GET: BlogAdmin
         public ActionResult Insert()
         {
+
+
             return View();
         }
 
@@ -32,8 +34,19 @@ namespace MVCIntro.Controllers
         public ActionResult Save(BlogItem myItem)
         {
 
+            if (ModelState.IsValid)
+            {
+                int a = 123;
+
+            }
+            else
+            {
+                int b = 1123;
+            }
+            var request = HttpContext.Request.Form;
+
             //save to db
-            return View("Insert");
+            return View("Insert",myItem);
         }
     }
 }

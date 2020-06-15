@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVCIntro.Models.Blog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,21 @@ namespace MVCIntro.Controllers
 	{
 		public ActionResult Index()
 		{
+			using (BlogDBcontext Dbcontext = new BlogDBcontext())
+			{
+				Dbcontext.Blogitems.Add(new BlogItem
+				{
+					Title = "عنوان تست",
+					Description = "متن تستس",
+					Link = "wwww.com",
+
+				}
+					);
+				Dbcontext.SaveChanges();
+
+			}
+
+
 			return View();
 		}
 
