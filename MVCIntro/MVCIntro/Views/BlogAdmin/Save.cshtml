@@ -1,6 +1,7 @@
 ﻿@model MVCIntro.Models.Blog.BlogItem
 @{
-    ViewBag.Title = "Insert";
+	ViewBag.Title = "Insert";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Insert New Post</h2>
@@ -22,7 +23,8 @@
         </tr>
         <tr>
             <td>@Html.LabelFor(c => Model.Description)</td>
-            <td>@Html.TextBoxFor(c => Model.Description)</td>
+            <td>@Html.TextBoxFor(c => Model.Description)
+            @Html.ValidationMessageFor(c => Model.Description)</td>
         </tr>
         <tr>
             <td colspan="2">

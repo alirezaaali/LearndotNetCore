@@ -7,46 +7,57 @@ using System.Web.Mvc;
 
 namespace MVCIntro.Controllers
 {
-    public class BlogAdminController : Controller
-    {
-        // GET: BlogAdmin
-        public ActionResult Insert()
-        {
+	public class BlogAdminController : Controller
+	{
+		// GET: BlogAdmin
+		public ActionResult List()
+		{
+
+			return View(new BlogDBcontext().Blogitems.ToList());
+		}
 
 
-            return View();
-        }
+		//[HttpPost]
+		//public ActionResult Save(string Title, string Description, string Link)
+		//{
+		//    var requset = HttpContext.Request.Form;
+
+		//    BlogItem myitem = new BlogItem();
+		//    myitem.Title = requset.Get("Title");
+		//    myitem.Description = requset.Get("Description");
+		//    myitem.Link = requset.Get("Link");
+		//    //save to db
+		//    return View("Insert");
+		//}
 
 
-        //[HttpPost]
-        //public ActionResult Save(string Title, string Description, string Link)
-        //{
-        //    var requset = HttpContext.Request.Form;
+		[HttpGet]
+		public ActionResult Save()
+		{
+			return View();
 
-        //    BlogItem myitem = new BlogItem();
-        //    myitem.Title = requset.Get("Title");
-        //    myitem.Description = requset.Get("Description");
-        //    myitem.Link = requset.Get("Link");
-        //    //save to db
-        //    return View("Insert");
-        //}
-        [HttpPost]
-        public ActionResult Save(BlogItem myItem)
-        {
+		}
+		[HttpPost]
+		public ActionResult Save(BlogItem blogitem)
+		{
 
-            if (ModelState.IsValid)
-            {
-                int a = 123;
+			if (ModelState.IsValid)
+			{
+				using (BlogDBcontext Dbcontext = new BlogDBcontext())
+				{
+					Dbcontext.Blogitems.Add(new BlogItem
+					{
+						Title = blogitem.Title,
+						Description = blogitem.Description,
+						Link = blogitem.Link,
 
-            }
-            else
-            {
-                int b = 1123;
-            }
-            var request = HttpContext.Request.Form;
+					}
+					);
+					Dbcontext.SaveChanges();
+				}
+			}
+			return RedirectToAction("List");
 
-            //save to db
-            return View("Insert",myItem);
-        }
-    }
+		}
+	}
 }

@@ -1,0 +1,16 @@
+﻿@model IEnumerable<MVCIntro.Models.Blog.BlogItem>
+@{
+	ViewBag.Title = "Blog Posts";
+}
+
+<table class="table table-bordered table-hover table-responsive">
+	@foreach (var blog in Model)
+	{
+		<tr>
+			<td>@blog.Id</td>
+			<td>@blog.Title</td>
+			<td>@blog.Link</td>
+			<td> @blog.Description</td>
+		</tr>
+	}
+</table>
