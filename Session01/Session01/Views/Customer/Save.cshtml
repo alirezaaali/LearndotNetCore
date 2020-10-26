@@ -1,0 +1,24 @@
+﻿@model Customer
+
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+	<table>
+		@*<tr>
+			<td>@Html.LabelFor(c => c.Id)</td>
+			<td>@Html.TextBoxFor(c => c.Id)</td>
+		</tr>*@
+		<tr>
+			<td>@Html.LabelFor(c => c.Name)</td>
+			<td>@Html.TextBoxFor(c => c.Name)</td>
+		</tr>
+		<tr>
+			<td>@Html.LabelFor(c => c.Family)</td>
+			<td>@Html.TextBoxFor(c => c.Family)</td>
+		</tr>
+		<tr>
+			<td><input type="submit" /></td>
+		</tr>
+
+	</table>
+}
