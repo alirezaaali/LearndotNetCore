@@ -3,7 +3,7 @@ namespace Commander.Controllers
 {
     [Microsoft.AspNetCore.Mvc.ApiController]
     //[Route(template: "api/Commandes")]
-    [Route(template: "api/[controller]")] //This is better to use!
+    [Route(template: "[controller]")] //This is better to use!
     public class CommandesController : ControllerBase
     {
         /* This is the old MVC way
@@ -90,14 +90,14 @@ namespace Commander.Controllers
         // }
 
 
-        [HttpGet(template: "/api/Commandes/GetAll")]
+        [HttpGet(template: "/Commandes/GetAll")]
         public async System.Threading.Tasks.Task<ActionResult<System.Collections.Generic.IEnumerable<Models.Command>>> GetAllAsync()
         {
             var result = await _repository.GetAllAsync();
             return Ok(result);
         }
 
-        [HttpGet(template: "/api/Commandes/GetId/{id}")]
+        [HttpGet(template: "/Commandes/GetId/{id}")]
         public async System.Threading.Tasks.Task<ActionResult<Models.Command>> GetIdAsync(int Id)
         {
             Models.Command result = await _repository.GetIdAsync(Id);

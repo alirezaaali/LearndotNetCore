@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\-=AlirezaFiles=-\\Logcal_GitHub\\LearndotNetCore\\Commander\\Commander.csproj",
+  "FilePath": "e:\\Projects_codes\\LearndotNetCore\\Commander\\Commander.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14387,7 +14387,7 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 800
+    "CSharpLanguageVersion": 900
   },
   "RootNamespace": "Commander",
   "Documents": [],
