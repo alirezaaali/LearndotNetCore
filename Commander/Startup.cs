@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 namespace Commander
 {
@@ -27,6 +28,12 @@ namespace Commander
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<Data.DatabaseContext>(option =>
+          {
+              option.UseSqlServer(Configuration.GetConnectionString("CommanderConnectionString"));
+
+          });
+
             services.AddControllers();
             services.AddTransient<Data.ICommandRepository, Data.CommandRepository>();
         }
