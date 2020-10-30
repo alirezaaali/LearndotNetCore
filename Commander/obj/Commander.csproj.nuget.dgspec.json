@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\-=AlirezaFiles=-\\Logcal_GitHub\\LearndotNetCore\\Commander\\Commander.csproj": {}
+    "E:\\Projects_codes\\LearndotNetCore\\Commander\\Commander.csproj": {}
   },
   "projects": {
-    "C:\\-=AlirezaFiles=-\\Logcal_GitHub\\LearndotNetCore\\Commander\\Commander.csproj": {
+    "E:\\Projects_codes\\LearndotNetCore\\Commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\-=AlirezaFiles=-\\Logcal_GitHub\\LearndotNetCore\\Commander\\Commander.csproj",
+        "projectUniqueName": "E:\\Projects_codes\\LearndotNetCore\\Commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "C:\\-=AlirezaFiles=-\\Logcal_GitHub\\LearndotNetCore\\Commander\\Commander.csproj",
-        "packagesPath": "C:\\Users\\alire\\.nuget\\packages\\",
-        "outputPath": "C:\\-=AlirezaFiles=-\\Logcal_GitHub\\LearndotNetCore\\Commander\\obj\\",
+        "projectPath": "E:\\Projects_codes\\LearndotNetCore\\Commander\\Commander.csproj",
+        "packagesPath": "C:\\Users\\14714\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects_codes\\LearndotNetCore\\Commander\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\alire\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\14714\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
