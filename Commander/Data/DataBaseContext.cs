@@ -3,7 +3,7 @@ namespace Data
 {
     public class DatabaseContext : Microsoft.EntityFrameworkCore.DbContext
     {
-        public DataBaseContext(Microsoft.EntityFrameworkCore.DbContextOptions<DatabaseContext> options)
+        public DatabaseContext(Microsoft.EntityFrameworkCore.DbContextOptions<DatabaseContext> options) : base(options)
         {
 
         }
